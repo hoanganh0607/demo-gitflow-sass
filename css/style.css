@@ -1,5 +1,5 @@
 .h1, .div div h2 {
-  color: yellow;
+  color: black;
 }
 
 .div h1 {
@@ -7,7 +7,7 @@
   font-size: 15;
 }
 .div div h2 {
-  font-size: 8px;
+  font-size: 99px;
 }
 
 /*# sourceMappingURL=style.css.map */
