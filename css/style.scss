@@ -2,15 +2,15 @@
     color: black;
 }
 @mixin fontSize($size) {
-    font-size: ($size / 2);   
+    font-size: $size + px;   
 }
 @function fontSize($size){
     @return $size + px;
 }
 .div{
     h1{
-        color: red;
-        @include fontSize(30)
+        color: black;
+        @include fontSize(45)
     }
     div{
         h2{
