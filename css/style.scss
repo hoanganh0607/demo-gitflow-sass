@@ -1,0 +1,21 @@
+.h1{
+    color: yellow;
+}
+@mixin fontSize($size) {
+    font-size: ($size / 2);   
+}
+@function fontSize($size){
+    @return $size + px;
+}
+.div{
+    h1{
+        color: red;
+        @include fontSize(30)
+    }
+    div{
+        h2{
+            @extend .h1;
+            font-size: fontSize(8);
+        }
+    }
+}
